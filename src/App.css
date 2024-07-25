@@ -1,0 +1,57 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  margin: 15px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.heading {
+  color: rgb(0, 149, 45);
+}
+.online-reg {
+  padding: 24px;
+  padding-left: 285px;
+  padding-right: 260px;
+  position: relative;
+  left: -5px;
+  background-color: rgba(47, 255, 109, 0.164);
+  margin-bottom: 10px;
+}
+.container input {
+  padding: 15px;
+  border: 2px solid #bebebe;
+  border-radius: 5px;
+  width: 680px;
+}
+::placeholder {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.date-of-birthday p {
+  margin-bottom: 10px;
+}
+.date-of-birthday input {
+  padding: 15px;
+  border: 2px solid #bebebe;
+  border-radius: 5px;
+  width: 216px;
+  margin-right: 15.5px;
+}
